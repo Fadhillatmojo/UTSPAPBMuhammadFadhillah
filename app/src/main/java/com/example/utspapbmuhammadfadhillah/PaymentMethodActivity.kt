@@ -53,6 +53,9 @@ class PaymentMethodActivity : AppCompatActivity() {
         var amountTicket = 1
 
         with(binding){
+            // image view back button
+            imageView.setOnClickListener(){finish()}
+
             // spinner adapter cinema
             val adapterCinemas = ArrayAdapter(this@PaymentMethodActivity, android.R.layout.simple_spinner_item, cinemas)
 

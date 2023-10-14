@@ -28,7 +28,9 @@ class OrderActivity : AppCompatActivity() {
         val paymentMethod = dataIntent.getStringExtra("EXT_PAYMENTMETHOD")
 
         with(binding){
-            // code disini
+            // image view back button
+            imageView.setOnClickListener(){finish()}
+
             imageviewOrder.setImageResource(imageData)
 
             orderTitle.text = movieTitle

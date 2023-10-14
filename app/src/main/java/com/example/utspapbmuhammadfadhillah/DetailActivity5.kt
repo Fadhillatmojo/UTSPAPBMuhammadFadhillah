@@ -23,6 +23,9 @@ class DetailActivity5 : AppCompatActivity() {
             tvRating.text = rating
             movieTitleDetails.text = movieTitle
 
+            // image view back button
+            imageView.setOnClickListener(){finish()}
+
             // onclick listener btn getticket
             btnGetTicket.setOnClickListener(){
                 // intent ke dalam activitypayment
