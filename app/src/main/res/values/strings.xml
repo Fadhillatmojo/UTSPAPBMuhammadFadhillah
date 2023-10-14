@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Fadhil Ticket</string>
+    <string name="terms_condition">By checking the box you agree to our Terms and Conditions.</string>
+    <string name="have_acc">Already Have an Account?</string>
+    <string name="new_member">New Member?</string>
+    <!--    ini yang baru-->
+
+    <!--    splash screen-->
+    <string name="splash_desc">Accompany \n Your Movie Journey</string>
+
+    <!--    login screen-->
+    <string name="title_login">Login</string>
+    <string name="desc_Login">Welcome back to Fadhil Ticket, its time to book your favorite movie in your favorite cinemas</string>
+    <string name="no_account">Dont Have an Account?</string>
+    <string name="forgot_pass">Forgot your password?</string>
+
+    <!--    details screen-->
+    <string name="title_details">Movie Details</string>
+    <string name="director">Director: Erik Richter Strand | </string>
+    <!--  genre  -->
+    <string name="genre_drama">Drama</string>
+    <string name="genre_supranatural">Supernatural fiction</string>
+    <string name="genre_action">Action</string>
+    <string name="genre_romance">Romance</string>
+
+    <string name="desc_behindhereyes">Adele is a Scottish heiress whose extremely wealthy family owns estates and grounds. When she was a teenager. Read More</string>
+    <string name="read_more">Read More</string>
+
+    <string name="btn_get_ticket">Get Ticket</string>
+
+    <!--    payment methods screen-->
+    <string name="pilih_bioskop">Choose Cinema</string>
+    <string name="pilih_seat">Choose Seat Type</string>
+    <string name="pilih_tanggal">Choose Date</string>
+    <string name="pilih_waktu">Choose Time</string>
+
+    <!--    ini array cinema-->
+    <array name="cinemas">
+        <item>Ambarukmo XXI Yogyakarta</item>
+        <item>Empire XXI Yogyakarta</item>
+        <item>Jogjacity XXI Yogyakarta</item>
+        <item>SCH XXI Yogyakarta</item>
+        <item>CGV JWALK Yogyakarta</item>
+        <item>CGV Transmart Yogyakarta</item>
+    </array>
+
+    <!--    ini array seat type-->
+    <array name="seat_type">
+        <item>Regular</item>
+        <item>Executive</item>
+        <item>3D Bioskop</item>
+    </array>
+    <!--    ini array seat type-->
+    <array name="payment_methods">
+        <item>Bank Transfer BNI</item>
+        <item>Bank Transfer BCA</item>
+        <item>Bank Transfer BRI</item>
+        <item>Gopay</item>
+        <item>Link Aja</item>
+        <item>Shopeepay</item>
+    </array>
+
+
+</resources>
